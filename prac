@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Brayson links</title>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to my house</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#Ingo">Ingo</a></li>
+                <li><a href="#Food">Food</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="#Home">
+                <h2> this is my living room</h2>
+                <p>it can accommodate upto 20 people:</p>
+                <a class="#home" href="www.ingo.com"><img src="ingo_image_url.jpg" alt=""></a>
+            </section>
+        </main>
+    </body>
+</html>
