@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Students Registration Form</title>
+    </head>
+    <body>
+        <h2>Students Reg Form</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="required">
+
+            <label for="DOB">Date of Birth:</label>
+            <input type="date" id="date" name="DOB" required>
+
+            <label for="gender">gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">select gender</option>
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="others"></option>
+            </select>
+
+            <label for="address">address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+
+            <label for="telephone">telephone:</label>
+            <input type="telephone" id="telephone"
+            name="telephone" required>
+
+            <label for="email">email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="course">course:</label>
+            <input type="text" id="course" name="course" required>
+
+            <input type="button" name="register">
+            <button type="submit" onclick="window.location.href='';">Cancel</button>
+        </form>
+    </body>
+</html>
